@@ -1,0 +1,42 @@
+:root {
+    --primary: #007AFF;
+    --accent: #E67300;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    color: #1C1C1E;
+    background: #FFFFFF;
+}
+
+h1 {
+    color: var(--primary);
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #0055B3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}

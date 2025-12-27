@@ -1,0 +1,21 @@
+#  Include the essentials
+!README.md
+!CHANGELOG.md
+!images/**
+!icon.png
+
+# Exclude tooling
+.DS_Store
+Thumbs.db
+.git
+.github
+.gitignore
+.vscode/
+node_modules/
+
+# Exclude unpublishable content
+*.md
+*.svg
+code/
+drafts/
+helpers/

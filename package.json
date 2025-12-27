@@ -1,0 +1,66 @@
+{
+	"name": "sunline-theme",
+	"displayName": "Sunline Theme",
+	"description": "A clean light theme where the blue sky meets the warm sun. Azure tones with orange accents for a balanced, professional experience.",
+	"version": "1.0.0",
+	"publisher": "andrecat",
+	"license": "MIT",
+	"author": {
+		"name": "Andrea Arias",
+		"url": "https://github.com/andre-cat"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andre-cat/sunline-theme.git"
+	},
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#F0F7FF",
+		"theme": "light"
+	},
+	"homepage": "https://github.com/andre-cat/sunline-theme",
+	"keywords": [
+		"azure",
+		"blue theme",
+		"blue",
+		"bright",
+		"clean",
+		"crisp",
+		"cyan",
+		"day theme",
+		"eye-friendly",
+		"high contrast",
+		"sunline",
+		"light theme",
+		"light",
+		"minimal",
+		"modern",
+		"orange theme",
+		"orange",
+		"professional",
+		"readable",
+		"sky blue",
+		"teal",
+		"theme",
+		"white"
+	],
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"id": "sunline-theme",
+				"label": "Sunline",
+				"uiTheme": "hc-light",
+				"path": "./themes/sunline.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/andre-cat/sunline-theme/issues"
+	}
+}

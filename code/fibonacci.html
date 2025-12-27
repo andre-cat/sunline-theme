@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light" data-version="1.0">
+    <main class="container">
+        <h1>Fibonacci <span class="accent">Sequence</span></h1>
+        <form id="calc-form" action="/api" method="POST">
+            <input type="number" id="count" min="1" max="100" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <ul id="results" hidden></ul>
+    </main>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
