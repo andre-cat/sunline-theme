@@ -2,21 +2,46 @@ from pathlib import Path
 from PIL import Image
 
 COLORS = {
+    # Syntax - Primary
     "black": "#000000",
     "blue": "#007AFF",
+    "blue-dark": "#0055B3",
     "blue-denim": "#5085B0",
-    "blue-inactive": "#66B3FF",
     "blue-light": "#5A9FD4",
-    "blue-pale": "#E3ECFF",
-    "gray": "#6c6c70",
-    "gray-blue": "#8e8e93",
-    "green": "#32A852",
-    "green-grass": "#4CB944",
     "orange": "#E67300",
-    "red": "#D93526",
     "teal": "#048A81",
     "teal-blue": "#51A3A3",
     "teal-gray": "#5A8A85",
+    "green-grass": "#4CB944",
+    
+    # UI - Blues
+    "blue-inactive": "#66B3FF",
+    "blue-pale": "#E3ECFF",
+    "blue-selection": "#D6E4FF",
+    
+    # UI - Status
+    "red": "#D93526",
+    "green": "#32A852",
+    
+    # Tropical - Greens (brackets)
+    "teal-green": "#0A8A6E",
+    "teal-green-light": "#4A9E7E",
+    "teal-green-gray": "#5A8A70",
+    
+    # Tropical - Yellows/Sand (brackets & highlights)
+    "yellow-gold": "#D9B835",
+    "yellow-mustard": "#CCAD42",
+    "yellow-sand": "#B5A044",
+    "yellow-honey": "#E6BE38",
+    "yellow-highlight": "#E8D888",
+    
+    # Tropical - Sand backgrounds
+    "sand-warm": "#FCECC9",
+    "sand-cream": "#EBEBD3",
+    
+    # Utility
+    "gray": "#6c6c70",
+    "gray-blue": "#8e8e93",
 }
 
 SIZE = (16, 16)
