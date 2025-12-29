@@ -9,7 +9,7 @@ def fibonacci(n: int) -> int:
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 class FibonacciSequence:
-    MAX_VALUE = 10_000
+    MAX_VALUE = 10000
     
     def __init__(self, limit: int = 0):
         self.limit = limit or self.MAX_VALUE

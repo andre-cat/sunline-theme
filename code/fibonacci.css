@@ -3,21 +3,11 @@
     --accent: #E67300;
 }
 
-body {
-    font-family: system-ui, sans-serif;
-    color: #1C1C1E;
-    background: #FFFFFF;
-}
-
-h1 {
-    color: var(--primary);
-}
-
 .accent {
     color: var(--accent);
 }
 
-.container {
+#container {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;

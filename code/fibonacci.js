@@ -1,5 +1,5 @@
 /** Fibonacci generator */
-const MAX_LIMIT = 10_000;
+const MAX_LIMIT = 10000;
 
 function fibonacci(n, cache = new Map()) {
     if (n <= 1) return n;
