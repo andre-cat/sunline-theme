@@ -16,6 +16,7 @@ node_modules/
 # Exclude unpublishable content
 *.md
 *.svg
+*.vsix
 code/
 drafts/
 helpers/
