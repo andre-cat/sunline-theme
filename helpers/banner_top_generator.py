@@ -3,7 +3,7 @@ import cairosvg
 
 svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
   <defs>
-    <!-- Clip para mostrar solo la mitad superior del sol -->
+    <!-- Clip to show only half of the sun -->
     <clipPath id="sunClip">
       <rect x="0" y="0" width="1200" height="378"/>
     </clipPath>

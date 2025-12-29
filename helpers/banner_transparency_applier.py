@@ -41,8 +41,8 @@ apply_alpha(input_folder_path / "banner-footer-draft.png", output_folder_path / 
 print("Done!")
 
 """
-POWER = 0.3  →  ░░████████████░░  (muy opaco en el centro)
-POWER = 0.5  →  ░░░██████████░░░  (más opaco)
+POWER = 0.3  →  ░░████████████░░  (extremely opaque)
+POWER = 0.5  →  ░░░██████████░░░  (high opacity)
 POWER = 1.0  →  ░░░░░██████░░░░░  (normal)
-POWER = 2.0  →  ░░░░░░░██░░░░░░░  (poca opacidad)
+POWER = 2.0  →  ░░░░░░░██░░░░░░░  (low opacity)
 """

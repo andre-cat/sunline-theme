@@ -27,20 +27,20 @@ svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" 
     </g>
   </g>
   
-  <!-- Palm 2 - center left, leaning left - 10 hojas (movida a la izquierda) -->
+  <!-- Palm 2 - center left, leaning left - 10 leafs (left) -->
   <g opacity="0.95">
     <path d="M540 390 Q510 340 480 270" stroke="#5A8A85" stroke-width="5" fill="none" stroke-linecap="round"/>
     <g transform="translate(480, 270)">
-      <!-- Hoja superior curva hacia la derecha -->
+      <!-- Top leaf curved to the right -->
       <path d="M0 0 Q15 -45 55 -35" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <!-- Hoja superior curva hacia la izquierda -->
+      <!-- Top leaf curved to the left -->
       <path d="M0 0 Q-20 -45 -60 -30" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <!-- Lado izquierdo - desde arriba hacia abajo -->
+      <!-- Left side - from top to bottom -->
       <path d="M0 0 Q-50 -25 -90 -5" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q-58 5 -100 35" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q-50 30 -78 65" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q-35 45 -50 88" stroke="#5A8A85" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-      <!-- Lado derecho - desde arriba hacia abajo -->
+      <!-- Right side - from top to bottom -->
       <path d="M0 0 Q50 -25 90 -5" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q58 5 100 35" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q50 30 78 65" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
@@ -48,20 +48,20 @@ svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" 
     </g>
   </g>
   
-  <!-- Palm 3 - center right, leaning right - 10 hojas (movida a la derecha) -->
+  <!-- Palm 3 - center right, leaning right - 10 leafs (right) -->
   <g opacity="0.95">
     <path d="M660 390 Q690 340 720 270" stroke="#5A8A85" stroke-width="5" fill="none" stroke-linecap="round"/>
     <g transform="translate(720, 270)">
-      <!-- Hoja superior curva hacia la izquierda -->
+      <!-- Top leaf curved to the left -->
       <path d="M0 0 Q-15 -45 -55 -35" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <!-- Hoja superior curva hacia la derecha -->
+      <!-- Top leaf curved to the right -->
       <path d="M0 0 Q20 -45 60 -30" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <!-- Lado derecho - desde arriba hacia abajo -->
+      <!-- Right side - from top to bottom -->
       <path d="M0 0 Q50 -25 90 -5" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q58 5 100 35" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q50 30 78 65" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q35 45 50 88" stroke="#5A8A85" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-      <!-- Lado izquierdo - desde arriba hacia abajo -->
+      <!-- Left side - from top to bottom -->
       <path d="M0 0 Q-50 -25 -90 -5" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q-58 5 -100 35" stroke="#048A81" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M0 0 Q-50 30 -78 65" stroke="#4CB944" stroke-width="2" fill="none" stroke-linecap="round"/>
